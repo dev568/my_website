@@ -35,12 +35,20 @@ nav {
 
 nav a {
     margin: 0 10px;
-    color: #007bff;
+    color: #ffffff;
+    /* Change to white or any high-contrast color */
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 8px;
     text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    background-color: #0056b3;
+    color: #ffffff;
+    /* Keep text white even on hover */
 }
 
 form {
