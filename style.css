@@ -31,6 +31,8 @@ a:hover {
 
 nav {
     margin-bottom: 20px;
+    background-color: #333;
+    padding: 15px 0;
 }
 
 nav a {
@@ -46,7 +48,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #0056b3;
+    background-color: #ff0000;
     color: #ffffff;
     /* Keep text white even on hover */
 }
